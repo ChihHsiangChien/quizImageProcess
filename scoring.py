@@ -21,7 +21,7 @@ background = pygame.Surface(window)
 #screen.blit(img,(0,0))
 
 #取得目錄內所有圖片檔
-imgPath = r'C:\Users\user\Documents\GitHub\quizImageProcess\answerImage\9'
+imgPath = r'C:\Users\user\Documents\GitHub\quizImageProcess\answerImage_other\4'
 imgList =[]
 for path, subdirs, files in os.walk(imgPath):
     for name in files:
